@@ -179,16 +179,14 @@ footer area end
     .banner{
         width: 60%;
 }
-.container{
-    display: grid;
-}
-}
 .row-container{
     display: grid;
-    padding-left: 0%;
+  
 }
 .timing {
     display: grid;
     
 
 }
+}
+
