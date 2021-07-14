@@ -17,7 +17,7 @@ First section start
 .Flexiable-container{
     background-color: #2D25A0;
     display: flex;
-    width: 1440px;
+    width: 1400px;
     height: 677px;
     margin-bottom: 150px;
     align-items: center;
@@ -59,6 +59,10 @@ transform: scale(1.1);
 /*------------ 
 First section end
 -------------- */
+
+/*------------ 
+Second section start
+-------------- */
 .row-container{
     width: 1050px;
     display: flex;
@@ -95,4 +99,34 @@ First section end
     line-height: 26px;
     font-size: 16px;
     font-weight: 200;
+}
+/*------------ 
+Second section end
+-------------- */
+
+/*------------ 
+Extra section Start
+-------------- */
+.extra-1{
+    background-color: rgb(46, 76, 104);
+}
+.counting{
+    width:1050px;
+    margin-left: 180px;
+    margin-right: 210px;
+}
+.match{
+   text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.timing{
+    display: flex;
+
+
+}
+.timing h1 p{
+    font-size: 40px;
+    font-weight: 600;
 }
