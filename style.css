@@ -1,0 +1,61 @@
+/* Universal */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*------------ 
+First section start
+-------------- */
+
+.Flexiable-container{
+    background-color: #2D25A0;
+    display: flex;
+    width: 1440px;
+    height: 677px;
+    margin-bottom: 150px;
+    align-items: center;
+}
+
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+    transition: transform 2s ease-in-out;
+    
+}
+
+.display-text{
+    font-size: 60px;
+    width: 485px;
+    height: 230px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    color:rgb(245, 245, 245);
+}
+.w-button{
+    text-decoration: none;
+    background-image: linear-gradient(to left bottom,#f5f7fa,#b8c6db );
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: rgb(87, 87, 200);
+    font-weight: 500px;
+}
+
+.banner{
+    width: 80%;
+}
+/*------- Transition----- */
+
+.half-width:hover {
+transform: scale(1.1);
+
+}
+/*------------ 
+First section end
+-------------- */
