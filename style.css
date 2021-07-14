@@ -162,3 +162,33 @@ footer area end
 
 /* Media Queries */
 
+/* Mobile Section  */
+@media only screen and (max-width:688px) {
+    
+    .Flexiable-container{
+     display: grid;
+     align-items: center;
+    }
+    .display-text{
+        font-size: 18px;
+    }
+    .half-width{
+        width: 100%;
+        padding-left: 5%;
+    }
+    .banner{
+        width: 60%;
+}
+.container{
+    display: grid;
+}
+}
+.row-container{
+    display: grid;
+    padding-left: 0%;
+}
+.timing {
+    display: grid;
+    
+
+}
