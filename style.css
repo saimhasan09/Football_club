@@ -17,7 +17,6 @@ First section start
 .Flexiable-container{
     background-color: #2D25A0;
     display: flex;
-    width: 1400px;
     height: 677px;
     margin-bottom: 150px;
     align-items: center;
@@ -111,9 +110,10 @@ Extra section Start
     background-color: rgb(46, 76, 104);
 }
 .counting{
-    width:1050px;
+    
     margin-left: 180px;
     margin-right: 210px;
+    margin-bottom: 150px;
 }
 .match{
    text-align: center;
@@ -125,8 +125,40 @@ Extra section Start
     display: flex;
 
 
+
 }
 .timing h1 p{
     font-size: 40px;
     font-weight: 600;
 }
+/*------------ 
+Extra section End
+-------------- */
+
+/*------------ 
+footer area start
+-------------- */
+
+footer{
+    display: block;
+    text-align: center;
+}
+.social{
+    margin-bottom: 15px;
+    color: lightslategray;
+    justify-content: space-between;
+
+}
+.logo{
+    align-items: center;
+}
+.logo img{
+    width: 20%;
+}
+
+/*------------ 
+footer area end
+-------------- */
+
+/* Media Queries */
+
