@@ -59,3 +59,40 @@ transform: scale(1.1);
 /*------------ 
 First section end
 -------------- */
+.row-container{
+    width: 1050px;
+    display: flex;
+    align-items: center;
+    margin-left: 180px;
+    margin-right: 210px;
+    margin-bottom: 50px;
+    justify-content: space-between;
+}
+.player-container{
+    width: 330px;
+    height: 500px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.player-picture .pic{
+    width: 300px;
+    height: 256px;
+    padding: 16px;
+}
+.player-detail{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 154px;
+    padding: 16px;
+}
+.name{
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.detail{
+    line-height: 26px;
+    font-size: 16px;
+    font-weight: 200;
+}
